@@ -1,4 +1,7 @@
 {
+  extends: [
+    'config:recommended'
+  ],
   packageRules: [
     {
       description: 'Group updates for each node version separately',
