@@ -1,0 +1,9 @@
+{
+  packageRules: [
+    {
+      description: 'Group updates for each node version separately',
+      groupName: 'Dependencies for {{parentDir}}',
+      matchPackageNames: [ '*' ],
+    }
+  ]
+}
